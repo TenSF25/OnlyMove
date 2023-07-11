@@ -1,0 +1,21 @@
+.container-zapas {
+    width: 100%;
+    height: 100%;
+    background-color: #151929;
+}
+
+.zapas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+
+.imgZapas {
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+}

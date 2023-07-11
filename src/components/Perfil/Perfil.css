@@ -1,0 +1,113 @@
+.perfil-container {
+    background-color: #151929;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.datos {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+
+.img-container {
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.imgPerfil {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.personales {
+    margin-top: 1.5%;
+    margin-left: 2%;
+}
+
+.nombre-perfil, .edad-perfil {
+    text-align: justify;
+}
+
+.outfits-container {
+    width: 100%;
+    height: 30%;
+}
+
+.emergencia {
+    border-radius: 20px;
+    margin-left: 10%;
+    background-color: #213d54;
+    width: 50%;
+    height: 70%;
+}
+
+.titulo-emergencia {
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: justify;
+}
+
+.emergencia-datos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.fn, .gs, .ep, .lc {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.nacimiento, .fecha {
+    margin-left: 14%;
+    text-align: justify;
+}
+
+.g, .lg {
+    margin-left:-9%;
+    text-align: justify;
+}
+
+.eP, .p {
+    margin-left: -40%;
+    text-align: justify;
+}
+
+.lC {
+    margin-left: -30%;
+}
+
+.li-contactos {
+    list-style: none;
+    margin-left: -32%;
+    text-align: justify;
+}
+
+hr {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.outfits-container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.menu-outfits {
+    width: 100%;
+}
+
+.nav-outfits {
+    margin-right: 40%;
+}

@@ -1,0 +1,34 @@
+.analisis-app {
+    width: 100%;
+    height: 100%;
+    background-color: #151929;
+    position: absolute;
+    /* top: 12%;
+    left: 5%; */
+}
+
+.header-app {
+    padding: 0;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.menu-app {
+    width: 100%;
+}
+
+.nav-app {
+    margin-right: 33.3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #213b59;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+}

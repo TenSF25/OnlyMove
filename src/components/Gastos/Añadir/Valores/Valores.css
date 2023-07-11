@@ -1,0 +1,49 @@
+.valores-app {
+    margin-left: 3.5%;
+    width: 92.5%;
+}
+
+.inputs-val {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 3%;
+}
+
+.valText {
+    width: 40%;
+    border-radius: 8px;
+    margin-right: 2%;
+    background-color: #5c6692;
+    color: #e2e2e2;
+}
+
+.valNum {
+    border-radius: 8px;
+    background-color: #5c6692;
+    color: #e2e2e2;
+}
+
+.valText::placeholder {
+    color: #e2e2e2;
+}
+
+.valNum::placeholder {
+    color: #e2e2e2;
+}
+
+.valText:hover, .valText:focus {
+    background-color: #a4a5e3;
+    color: #e2e2e2;
+}
+
+.valNum:hover, .valNum:focus {
+    background-color: #a4a5e3;
+    color: #e2e2e2;
+}
+
+.imgConf {
+    margin-left: 2%;
+}

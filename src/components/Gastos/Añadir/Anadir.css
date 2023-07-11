@@ -1,0 +1,53 @@
+.añadir-app {
+    width: 80%;
+    height: 61.5%;
+    position: absolute;
+    top: 18%;
+    left: 12%;
+}
+
+.añadir-gastos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.añadir-categorias {
+    background-color: #1F2A40;
+    width: 40%;
+    margin-top: 20px;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+.añadir-servicios, .añadir-sinCategoria, .añadir-supermercado, .añadir-restaurantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.h1-gastos {
+    font-size: 25px;
+    color: #70d8bd;
+}
+
+img {
+    width: 7%;
+}
+
+.imgAdd-serv {
+    margin-left: 70%;
+}
+
+.imgAdd-sc {
+    margin-left: 62%;
+}
+
+.imgAdd-super {
+    margin-left: 60%;
+}
+
+.imgAdd-rest {
+    margin-left: 49.5%;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 1099px) {
+    .container2 {
+        position: absolute;
+        left: 30%;
+    }
+    .weather-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weather-details {
+        position: absolute;
+        left: 10%;
+        top: 80%;
+        width: 300px;
+    }
+}

@@ -17,8 +17,6 @@ import Proximamente from './components/Proximamente/Proximamente'
 
 import { Routes, Route } from 'react-router-dom';
 
-import { ubicacionUsuario } from './helpers/ubicacionUsuario'
-
 function App() {
 
   const [lat, setLat] = useState("");

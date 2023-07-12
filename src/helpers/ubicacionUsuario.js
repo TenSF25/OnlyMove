@@ -1,4 +1,7 @@
 export function ubicacionUsuario() {
+
+    
+
     if(!navigator.geolocation) {
       alert("El navegador no soporta geolocalización")
       return;

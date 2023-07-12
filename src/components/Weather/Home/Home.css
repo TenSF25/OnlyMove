@@ -25,3 +25,18 @@
     background: rgba(0, 0, 0, 0.3);
     z-index: 0;
 }
+
+
+@media (max-width: 1099px) {
+    .weather-app {
+        height: 118vh;
+        width: 100%;
+    }
+
+    .weather-details {
+        position: absolute;
+        left: 10%;
+        top: 90%;
+        width: 300px;
+    }
+}

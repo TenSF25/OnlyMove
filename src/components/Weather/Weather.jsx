@@ -26,7 +26,7 @@ function Weather() {
 
     useEffect(() => {
         const apiKey = "cac6e78e6c694e4982a202002230707";
-        fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Villa Ballester`)
+        fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Jose Leon Suarez`)
         .then((response) => response.json())
         .then(data => {
             console.log(data)
@@ -43,11 +43,12 @@ function Weather() {
             const d = parseInt(date.substr(8, 2))
             setDay(d);
 
-            const time = date.substr(11)
-            setTime(time)
-
             const iconId = data.current.condition.icon.substr("//cdn.weatherapi.com/weather/64x64".length);
             setIconId(iconId);
+
+            const time = date.substr(11)
+
+            setTime(time);
         })
         .catch((err) => {
             console.log(err)

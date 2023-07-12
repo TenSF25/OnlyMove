@@ -29,7 +29,7 @@ function Home() {
 
     useEffect(() => {
         const apiKey = "cac6e78e6c694e4982a202002230707";
-        fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Villa Ballester`)
+        fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Jose Leon Suarez`)
         .then((response) => response.json())
         .then(data => {
             console.log(data)

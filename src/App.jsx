@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useReducer, useState } from 'react'
 import './App.css'
 
 import Main from './components/Inicio/Main/Main'
@@ -17,8 +17,32 @@ import Proximamente from './components/Proximamente/Proximamente'
 
 import { Routes, Route } from 'react-router-dom';
 
+import { ubicacionUsuario } from './helpers/ubicacionUsuario'
+
 function App() {
-  return (
+
+  const [lat, setLat] = useState("");
+  const [lng, setLong] = useState("");
+
+  if(!navigator.geolocation) {
+    alert("El navegador no soporta geolocalización")
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      setLat(position.coords.latitude)
+      setLong(position.coords.longitude)
+
+      console.log(lat, lng)
+
+      console.log('Mi ubicacion:', `lat: ${position.coords.latitude}, lng: ${position.coords.longitude}`);
+    },
+    (err) => {
+    alert('Error al obtener la ubicación')
+  })
+
+  return(
     <>
       <Routes>
         <Route path="/" element={<Navegacion/>}>

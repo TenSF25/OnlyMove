@@ -26,7 +26,7 @@ function Weather() {
 
     useEffect(() => {
         const apiKey = "cac6e78e6c694e4982a202002230707";
-        fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Jose Leon Suarez`)
+        fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Ushuaia`)
         .then((response) => response.json())
         .then(data => {
             console.log(data)
